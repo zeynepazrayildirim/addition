@@ -13,5 +13,5 @@ main(void)
     printf("Please enter the size of the house: \n");
     scanf("%d", &size);
     homeValue = (pow(popularity, 3)+ pow(size, 2))* 10000;
-    printf("The home value of the house is: %f", homeValue);
+    printf("The home value of the house is: %d", homeValue);
 }
